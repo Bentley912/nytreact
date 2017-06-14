@@ -1,0 +1,38 @@
+{
+  "name": "nytreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bentley912/nytreact.git"
+  },
+  "author": "Pbentley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bentley912/nytreact/issues"
+  },
+  "homepage": "https://github.com/Bentley912/nytreact#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-core": "^6.25.0",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.6",
+    "react": "^15.6.0",
+    "react-dom": "^15.6.0",
+    "react-router": "^4.1.1"
+  },
+     "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "webpack": "^1.14.0"
+  }
+}
